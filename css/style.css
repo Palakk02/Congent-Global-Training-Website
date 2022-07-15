@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation bar: list styling */
+#navbar{
+    /* position: sticky; */
+    top: 0px;
+    display: -webkit-box;
+}
+
+#navbar::before{
+    content: "";
+    /* background-color: black; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index:-1; /*content will come upon it*/
+    opacity: 0.4;
+}
+
+#navbar ul .icons{
+    display: -webkit-box;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-left: -745px;
+}
+
+#navbar ul img{
+    background-color: #3dadf2;
+    border-radius: 27px;
+    margin-right: -10px;
+    height: 36px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+
+#navbar ul li{
+    list-style: none; /*bullets will disapper */
+    font-size: 1.3rem;
+    display: inline-flex;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px; 
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+} */
+
+#navbar li .btn{
+    color: white;
+    height: 41px;
+    width: 114px;
+    background-color: #005696;
+    border-radius: 31px;
+    cursor: pointer;
+}
+
+#content-1 img{
+    float: right;
+    height: 50%;
+    width: 60%;
+    margin-top: -141px;
+}
+
+#content-1{
+    padding: 35px;
+    font-size: 1.3rem;
+    padding-left: 89px;
+    padding-right: 62px
+}
+
+#content-1 .h-primary{
+    font-size: 3.9rem;
+}
+
+#content-1 p{
+    font-size: 1.5rem;
+    margin-top: 23px;
+    color: grey;
+}
+
+#content-1 .btn{
+    border-radius: 27px;
+    font-size: 1.5rem;
+    background-color: darkgoldenrod;
+    padding: 14px;
+    width: 223px;
+    color: white;
+    cursor: pointer;
+}
+
+#content-2 div .item-2{
+    float: right;
+}
+
+.item-4 img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer{
+    background-color: darkgoldenrod;
+    padding: 9px 20px;
+    position: unset;
+    margin-top: 170px;
+}
+
+
